@@ -6,14 +6,11 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["./TeamCityDemo.csproj", "TeamCityDemo/"]
-RUN dotnet restore "./TeamCityDemo.csproj"
-COPY . .
-WORKDIR "/src/TeamCityDemo"
-RUN dotnet build "TeamCityDemo.csproj" -c Release -o /app/build
+COPY ./*.csproj ./
 
-FROM build AS publish
-RUN dotnet publish "TeamCityDemo.csproj" -c Release -o /app/publish
+RUN dotnet restore
+COPY . .
+RUN dotnet publish -c Release -o out
 
 FROM base AS final
 WORKDIR /app
