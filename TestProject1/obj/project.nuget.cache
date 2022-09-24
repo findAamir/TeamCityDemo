@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ERgo4/F7L8ZSwhqYw7jIoSHdAYKTBVYa8iwvpE9t7zqJ25kAG4MW6FDm6vOQvYuU1FJpQ2RrgzUTh95C5FbToA==",
+  "dgSpecHash": "os+4+dcDxaof+g+DzFOeR5zo/Znqn+9tFBjbos/OJgDTvM57uFYw73aRBfRWx6kOMo3RDZiwmsaXrW8qa6frRQ==",
   "success": true,
   "projectFilePath": "D:\\TeamCityDemo\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\PCP\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\PCP\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.1.0\\microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
     "C:\\Users\\PCP\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
+    "C:\\Users\\PCP\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\PCP\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\PCP\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\PCP\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
